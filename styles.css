@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+    color: #222;
+  background: #F20C0C;
+  background-image: url(https://i1.rozetka.ua/goods/1832824/13495722_images_1832824744.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+a {
+  text-decoration: none;
+  color: #DFF20C;
+}
+a:hover {
+  color: #7F807C;
+  background-color: black;
+  padding-bottom: 2px;
+}
+.top {
+  border: 2px solid black;
+}
+.logo {
+border: 1px solid black;
+border-radius: 50%;
+height: 80px;
+weight: 50px;
+}
+.menu {
+  font: bold italic 110% serif;
+  color: #2313D1;
+  position: relative;
+  margin-left: 1350px;
+  margin-top: -20px;
+}
+li {
+  display: inline;
+  position: relative;
+  margin-right: 50px;
+  padding: 0px;
+}
+.profile-image {
+margin-top: 0px;
+margin-left: 0px;
+width: 100px;
+height: 100px;
+border: 2px solid black;
+background: #F5A40F;
+border-radius: 50%;
+margin-top: 100px;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(360deg);
+  }
+header {
+  text-align: center;
+  font-size: 2em;
+  color: #29F2DE;
+}
+.card {
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 50px;
+  margin-right: 1000px;
+  margin-left: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: -250px;
+
+}
+.plans {
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 50px;
+  margin-left: 1000px;
+  margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.subtitle {
+  text-align: center;
+  border: solid green;
+  border-radius: 5px;
+  font-size: 2em;
+}
+.links {
+  margin-left: 900px;
+  margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.social.instagram {
+  padding: 54px;
+  height: 0;
+  overflow: hidden;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png) no-repeat;
+  background-size: 50%;
+  background-position: bottom;
+}
+.social.linkedin {
+  padding: 54px;
+  height: 0;
+  overflow: hidden;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1024px-Linkedin.svg.png) no-repeat;
+  background-size: 50%;
+  background-position: bottom;
+  margin-top: 100px;
+}
+.social.github {
+  padding: 54px;
+  height: 0;
+  overflow: hidden;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png) no-repeat;
+  background-size: 50%;
+  background-position: bottom;
+  padding-top: -200px;
+  margin-top: 100px;
+}
+.social {
+  margin-top: 300px;
+  text-align: center;
+}
+.copyrights {
+  text-align: center;
+  margin-top: 100px;
+
+}
